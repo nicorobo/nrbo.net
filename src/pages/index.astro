@@ -21,6 +21,21 @@ import Pools from '../components/pools.astro'
 			.title {
 				color: white; 
 				margin-block: 20px;
+				span:nth-child(1), span:nth-child(2) {
+					color: #2A7B9B;
+				}
+				span:nth-child(3) {
+					color: #42A48F;
+				}
+				span:nth-child(4) {
+					color: #57C785;
+				}
+				span:nth-child(5) {
+					color: #A7D36A;
+				}
+				span:nth-child(6) {
+					color: #EDDD53;
+				}
 			}
 			body {
 				display: flex;
@@ -32,12 +47,12 @@ import Pools from '../components/pools.astro'
 	</head>
 	<body>
 		<pre class="title">             
-             _           
-            | |          
-  _ __  _ __| |__   ___  
- | '_ \| '__| '_ \ / _ \ 
- | | | | |  | |_) | (_) |
- |_| |_|_|  |_.__/ \___/ 
+<span>             _           </span>
+<span>            | |          </span>
+<span>  _ __  _ __| |__   ___  </span>
+<span> | '_ \| '__| '_ \ / _ \ </span>
+<span> | | | | |  | |_) | (_) |</span>
+<span> |_| |_|_|  |_.__/ \___/ </span>
 		</pre>
 		<Pools>
 	</body>
