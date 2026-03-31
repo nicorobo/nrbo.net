@@ -5,8 +5,8 @@ export const getCanvas = (id: string, width: number, height: number) => {
   }
   canvas.width = width
   canvas.height = height
-  canvas.style.width = `${width / 2}px`
-  canvas.style.height = `${height / 2}px`
+  // canvas.style.width = `${width / 2}px`
+  // canvas.style.height = `${height / 2}px`
   const ctx = canvas.getContext('2d')
 
   return [canvas, ctx] as [HTMLCanvasElement, CanvasRenderingContext2D]

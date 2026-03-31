@@ -14,7 +14,6 @@ const gridSize = 50
 
 const scene = new IsoScene(gridSize, false)
 
-const basin = new Basin(vec3(0), vec3(25, 25, 10))
 const basin2 = new Basin(vec3(-3, -3, 0), vec3(5, 5, 4))
 const basin3 = new Basin(vec3(2, -3, 0), vec3(5, 5, 2))
 const basin4 = new Basin(vec3(-3, 2, 0), vec3(5, 5, 2))
